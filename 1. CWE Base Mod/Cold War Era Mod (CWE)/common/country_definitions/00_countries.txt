@@ -1,4 +1,52 @@
-# Imported from Victoria 2 CWE
+# Imported from Victoria 2 CWE, Uses same tag as Vanilla Vic3
+
+ENG	= { #England, ENL in CWE2                                                                  
+	color = { 239  96  88 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	religion = insert_religion1
+	
+	cultures = { insert_culture1 insert_culture2 }
+	
+	capital = #STATE_statename
+	
+	is_named_from_capital = #yes, no
+}
+GBR	= { #UK / Great Britain, ENG in CWE2                                                    
+	color = { 209  66  58 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	religion = insert_religion1
+	
+	cultures = { insert_culture1 insert_culture2 }
+	
+	capital = #STATE_statename
+	
+	is_named_from_capital = #yes, no
+}
+WLS	= { #Wales, WAE in CWE2                                                                    
+	color = { 112 138 144 }
+	
+	country_type = #recognized, colonial, unrecognized, decentralized
+	
+	tier = #city_state, principality, grand_principality, kingdom, empire, hegemony
+	
+	religion = insert_religion1
+	
+	cultures = { insert_culture1 insert_culture2 }
+	
+	capital = #STATE_statename
+	
+	is_named_from_capital = #yes, no
+}
+
+# Imported from Victoria 2 CWE, Uses same tag as Vic2 CWE
 
 AAB	= { #Antigua and Barbuda
 	color = { 78 209 117 }
@@ -1757,36 +1805,6 @@ EID	= { #East Indonesia
 }
 ELS	= { #El Salvador                                                              
 	color = { 228 229 221 }
-	
-	country_type = #recognized, colonial, unrecognized, decentralized
-	
-	tier = #city_state, principality, grand_principality, kingdom, empire, hegemony
-	
-	religion = insert_religion1
-	
-	cultures = { insert_culture1 insert_culture2 }
-	
-	capital = #STATE_statename
-	
-	is_named_from_capital = #yes, no
-}
-ENG	= { #UK / Great Britain                                                       
-	color = { 209  66  58 }
-	
-	country_type = #recognized, colonial, unrecognized, decentralized
-	
-	tier = #city_state, principality, grand_principality, kingdom, empire, hegemony
-	
-	religion = insert_religion1
-	
-	cultures = { insert_culture1 insert_culture2 }
-	
-	capital = #STATE_statename
-	
-	is_named_from_capital = #yes, no
-}
-ENL	= { #England                                                                  
-	color ={ 239  96  88 }
 	
 	country_type = #recognized, colonial, unrecognized, decentralized
 	
@@ -7352,21 +7370,6 @@ VNZ	= { #Venezuela
 }
 VOJ	= { #Vojvodina                                                                
 	color = { 131 139 131 }
-	
-	country_type = #recognized, colonial, unrecognized, decentralized
-	
-	tier = #city_state, principality, grand_principality, kingdom, empire, hegemony
-	
-	religion = insert_religion1
-	
-	cultures = { insert_culture1 insert_culture2 }
-	
-	capital = #STATE_statename
-	
-	is_named_from_capital = #yes, no
-}
-WAE	= { #Wales                                                                    
-	color = { 112 138 144 }
 	
 	country_type = #recognized, colonial, unrecognized, decentralized
 	
